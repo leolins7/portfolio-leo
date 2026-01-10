@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* Definindo nossas cores personalizadas aqui */
+  --color-background: #030014;
+  --color-surface: #110a26;
+  --color-primary: #9333ea;
+  --color-secondary: #c084fc;
+  --color-text: #f3f4f6;
+  
+  /* Efeito de brilho */
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Configurações Globais do Site */
+:root {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Classe utilitária para o brilho Neon no texto */
+.text-glow {
+  text-shadow: 0 0 20px rgba(147, 51, 234, 0.6);
+}
