@@ -15,7 +15,7 @@ export const projects = [
     description: "Jogos interativos (gamificação) para eventos corporativos de segurança do trabalho (SIPAT).",
     techs: ["React, SupaBase, Aplicação PWA"],
     highlight: "Planejamento da unificação dos jogos para criar um ecossistema reutilizável.",
-    repoLink: "https://github.com/seu-usuario/be-eventos",
+    repoLink: "https://github.com/leolins7/jogos-be",
   },
   {
     id: 3,
